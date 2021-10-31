@@ -1,0 +1,37 @@
+[
+        {"roomName": "Starting room", "tileList":
+        [{"tc": {"x": 1, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 2}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 3}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 4}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 5}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 6}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 7}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 8}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 2, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 2, "y": 2}, "type": "station", "dirt": 0},
+         {"tc": {"x": 2, "y": 3}, "type": "carpet", "dirt": 2},
+         {"tc": {"x": 2, "y": 4}, "type": "carpet", "dirt": 2},
+         {"tc": {"x": 2, "y": 5}, "type": "carpet", "dirt": 2},
+         {"tc": {"x": 2, "y": 6}, "type": "carpet", "dirt": 2},
+         {"tc": {"x": 2, "y": 7}, "type": "carpet", "dirt": 2},
+         {"tc": {"x": 2, "y": 8}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 3, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 3, "y": 2}, "type": "stairs", "dirt": 0},
+         {"tc": {"x": 3, "y": 3}, "type": "stairs", "dirt": 0},
+         {"tc": {"x": 3, "y": 4}, "type": "carpet", "dirt": 1},
+         {"tc": {"x": 3, "y": 5}, "type": "carpet", "dirt": 1},
+         {"tc": {"x": 3, "y": 6}, "type": "carpet", "dirt": 1},
+         {"tc": {"x": 3, "y": 7}, "type": "carpet", "dirt": 1},
+         {"tc": {"x": 3, "y": 8}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 2}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 3}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 4}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 5}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 6}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 7}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 8}, "type": "wall", "dirt": 0}
+        ]}
+
+]

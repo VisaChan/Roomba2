@@ -1,0 +1,50 @@
+//Each floor plan has an array of rooms
+//each room has a room name (roomName) and an array of tiles (tileList)
+//every floor plan must have a Starting room to know where to place the CleanSweep
+
+//every tile has a tile coordinate, which is represented by the tc that holds and x and y. The smallest coordinate being (1,1)
+//every tile has a type where a wall, stairs, and closed doors are considered obstacles. The other types are valid to go on
+//the tile with type station in the Starting room is where the CleanSweep will be placed
+
+//every tile has an amount of dirt
+
+//In this example I have a tile with type "transition: Starting room <-> room 2"
+//This type is used to tell the clean sweep there is another room that it can transition to
+//I was thinking of having an algorithm that cleans room by room and once it done with one room, it goes to the transition to get to the next room to clean
+
+//We will add a heavy_carpet type later
+
+[
+        {"roomName": "Starting room", "tileList":
+        [{"tc": {"x": 1, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 2}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 3}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 4}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 2, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 2, "y": 2}, "type": "station", "dirt": 0},
+         {"tc": {"x": 2, "y": 3}, "type": "tile", "dirt": 1},
+         {"tc": {"x": 2, "y": 4}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 3, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 3, "y": 2}, "type": "tile", "dirt": 2},
+         {"tc": {"x": 3, "y": 3}, "type": "tile", "dirt": 1},
+         {"tc": {"x": 3, "y": 4}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 2}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 4, "y": 3}, "type": "transition: Starting room <-> room 2", "dirt": 1},
+         {"tc": {"x": 4, "y": 4}, "type": "wall", "dirt": 0}
+        ]},
+        {"roomName": "room 2", "tileList":
+        [{"tc": {"x": 5, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 5, "y": 2}, "type": "tile", "dirt": 3},
+         {"tc": {"x": 5, "y": 3}, "type": "tile", "dirt": 1},
+         {"tc": {"x": 5, "y": 4}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 6, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 6, "y": 2}, "type": "tile", "dirt": 2},
+         {"tc": {"x": 6, "y": 3}, "type": "tile", "dirt": 2},
+         {"tc": {"x": 6, "y": 4}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 7, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 7, "y": 2}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 7, "y": 3}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 7, "y": 4}, "type": "wall", "dirt": 0}
+        ]}
+]

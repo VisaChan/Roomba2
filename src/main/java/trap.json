@@ -1,0 +1,16 @@
+//This is a floor plan that is only just one room and one tile
+//this floor plan is to test the emergency shutdown feature
+
+[
+        {"roomName": "Starting room", "tileList":
+        [{"tc": {"x": 1, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 2}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 1, "y": 3}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 2, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 2, "y": 2}, "type": "station", "dirt": 0},
+         {"tc": {"x": 2, "y": 3}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 3, "y": 1}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 3, "y": 2}, "type": "wall", "dirt": 0},
+         {"tc": {"x": 3, "y": 3}, "type": "tile", "dirt": 0}
+        ]}
+]
